@@ -1,0 +1,11 @@
+<h1>Hello World</h1>
+
+<button ($click)="foobar">Click</button>
+
+
+{{#if xy}}
+    <can-import from="./style.css"></can-import>
+    <p>xy is true</p>
+{{else}}
+    <p>xy is false</p>
+{{/if}}
